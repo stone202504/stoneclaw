@@ -2,20 +2,5 @@
   "title": "OpenClaw 安装教程",
   "description": "OpenClaw (Captain Claw 1997 重制版) 完整安装与构建指南",
   "author": "stoneclaw",
-  "language": "zh-hans",
-  "gitbook": "3.2.3",
-  "plugins": [
-    "theme-default",
-    "search",
-    "fontsettings",
-    "sharing"
-  ],
-  "pluginsConfig": {
-    "theme-default": {
-      "showLevel": true
-    },
-    "sharing": {
-      "github": true
-    }
-  }
+  "language": "zh-hans"
 }
