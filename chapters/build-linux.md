@@ -69,6 +69,7 @@ cd ../Build_Release
 
 ```bash
 # 从 GitHub Releases 页面下载 .deb 包
+# https://github.com/pjasicek/OpenClaw/releases
 sudo apt install ./openclaw_1.0-0.deb
 ```
 

@@ -24,9 +24,10 @@ cmake -DSDL2_DIR=$(brew --prefix sdl2)/lib/cmake/SDL2 ..
 
 ```bash
 # Ubuntu - 如果软件源中的版本太旧，从源码编译
-wget https://www.libsdl.org/release/SDL2-2.28.5.tar.gz
-tar xzf SDL2-2.28.5.tar.gz
-cd SDL2-2.28.5
+# 下载地址: https://github.com/libsdl-org/SDL/releases
+wget https://github.com/libsdl-org/SDL/releases/download/release-2.30.9/SDL2-2.30.9.tar.gz
+tar xzf SDL2-2.30.9.tar.gz
+cd SDL2-2.30.9
 ./configure
 make -j$(nproc)
 sudo make install
@@ -64,9 +65,9 @@ g++ --version   # 需要 GCC 4.8+
 **症状：** `The code execution cannot proceed because SDL2.dll was not found`
 
 **解决方法：**
-1. 从 [SDL2 官网](https://www.libsdl.org/) 下载对应的 Runtime Binaries
+1. 从 [SDL2 GitHub Releases](https://github.com/libsdl-org/SDL/releases) 下载对应的 Runtime Binaries（选择 `SDL2-x.x.x-win32-x64.zip`）
 2. 将 DLL 文件放入可执行文件所在目录
-3. 或者从 OpenClaw 的 [GitHub Releases](https://github.com/pjasicek/OpenClaw/releases) 下载完整包
+3. 或者从 OpenClaw 的 [GitHub Releases](https://github.com/pjasicek/OpenClaw/releases) 下载完整发布包（已包含所有 DLL）
 
 ### 没有声音
 
@@ -106,7 +107,7 @@ aplay -l
 
 如果以上方法都无法解决你的问题：
 
-1. 查看 [GitHub Issues](https://github.com/pjasicek/OpenClaw/issues) 中是否有类似问题
+1. 查看 OpenClaw 的 [GitHub Issues 页面](https://github.com/pjasicek/OpenClaw/issues) 中是否有类似问题
 2. 提交新的 Issue，附上：
    - 操作系统版本
    - 编译器版本

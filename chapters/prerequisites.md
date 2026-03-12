@@ -69,14 +69,14 @@ sudo pacman -S \
 
 ### 方法一：Visual Studio (推荐)
 
-1. 安装 [Visual Studio 2017](https://visualstudio.microsoft.com/) 或更新版本
+1. 安装 [Visual Studio 2017 或更新版本](https://visualstudio.microsoft.com/zh-hans/downloads/)
 2. 安装时选择 **"使用 C++ 的桌面开发"** 工作负载
 3. 项目自带 VS2017 解决方案，所有库和头文件目录已预配置
 
 ### 方法二：CMake + MinGW
 
-1. 安装 [CMake](https://cmake.org/download/)
-2. 安装 [MinGW-w64](https://www.mingw-w64.org/)
+1. 安装 [CMake](https://cmake.org/download/)（下载 Windows x64 Installer）
+2. 安装 [MinGW-w64](https://www.mingw-w64.org/downloads/)（推荐通过 MSYS2 安装）
 3. 确保 `cmake` 和 `gcc` 在系统 PATH 中
 
 ## macOS
@@ -96,7 +96,7 @@ brew install \
 
 ## WebAssembly (Emscripten)
 
-1. 安装 [Emscripten SDK](https://emscripten.org/docs/getting_started/downloads.html)：
+1. 安装 [Emscripten SDK](https://emscripten.org/docs/getting_started/downloads.html)（官方安装文档）：
 
 ```bash
 git clone https://github.com/emscripten-core/emsdk.git

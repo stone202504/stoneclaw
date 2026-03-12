@@ -62,8 +62,8 @@ nmake
 
 如果启动时提示找不到 SDL2 相关 DLL：
 
-1. 从 [SDL2 官网](https://www.libsdl.org/) 下载 Runtime 版本 (x64)
-2. 或者从 OpenClaw 的 [GitHub Releases](https://github.com/pjasicek/OpenClaw/releases) 下载包含所有 DLL 的发布包
+1. 从 [SDL2 官网下载页](https://github.com/libsdl-org/SDL/releases) 下载 Runtime 版本（选择 `SDL2-x.x.x-win32-x64.zip`）
+2. 或者从 OpenClaw 的 [GitHub Releases 页面](https://github.com/pjasicek/OpenClaw/releases) 下载包含所有 DLL 的发布包
 3. 将以下 DLL 放入 `Build_Release` 目录：
    - `SDL2.dll`
    - `SDL2_image.dll`

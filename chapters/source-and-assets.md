@@ -7,7 +7,7 @@ git clone https://github.com/pjasicek/OpenClaw.git
 cd OpenClaw
 ```
 
-如果需要特定版本，可以查看已发布的 Release：
+如果需要特定版本，可以在 [Releases 页面](https://github.com/pjasicek/OpenClaw/releases) 查看已发布的版本，或通过命令行查看：
 
 ```bash
 git tag -l
